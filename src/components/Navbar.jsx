@@ -26,7 +26,6 @@ const Navbar = () => {
             <h2><Link to={'/'}>Home</Link></h2>
             <h2><Link to={'login'}>Login</Link></h2>
             <h2><Link to={'register'}>Register</Link></h2>
-            <h2><Link to={'about/'}>About</Link></h2>
             <h2 onClick={logoutUser} className='btn btn-primary'>Logout</h2>
         </div>
     )
